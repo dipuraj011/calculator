@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="vicky">
+        <div id="dipu">
+            <input id="blank" type="text" readonly>
+            <div id="box">
+                <button id="button" onclick="CurrentValue = '';document.querySelector('#blank').value = CurrentValue;">C</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'1';document.querySelector('#blank').value =CurrentValue ;">1</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'2';document.querySelector('#blank').value = CurrentValue ;">2</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'+';document.querySelector('#blank').value = CurrentValue ;">+</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'3';document.querySelector('#blank').value = CurrentValue ;">3</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'4';document.querySelector('#blank').value = CurrentValue ;">4</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue+'-';document.querySelector('#blank').value = CurrentValue ;">-</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'5';document.querySelector('#blank').value = CurrentValue ;">5</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'6';document.querySelector('#blank').value  = CurrentValue ;">6</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'*';document.querySelector('#blank').value = CurrentValue ;">*</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'7';document.querySelector('#blank').value = CurrentValue ;">7</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'8';document.querySelector('#blank').value = CurrentValue ;">8</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'/';document.querySelector('#blank').value = CurrentValue ;">/</button>
+
+                <button id="button" onclick="let result = eval(CurrentValue); CurrentValue = result; document.querySelector('#blank').value = CurrentValue; ">=</button>
+
+                <button id="button" onclick=" CurrentValue=CurrentValue +'9';document.querySelector('#blank').value = CurrentValue ;">9</button>
+
+                <button id="button" onclick="CurrentValue = CurrentValue +'.';document.querySelector('#blank').value = CurrentValue ;">.</button>
+                <button id="button" onclick="CurrentValue = CurrentValue +'0';document.querySelector('#blank').value = CurrentValue ;">0</button>
+                <button id="button" onclick="backspace()">←</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="mind.js"></script>
+</body>
+
+</html>

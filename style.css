@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#dipu {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 80px;
+    background-color: aquamarine;
+}
+
+#blank {
+    width: 89%;
+    margin: 10px;
+    font-size: 30px;
+    background-color: azure;
+    border-radius: 9px;
+}
+
+#button {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    background-color: rgb(203, 218, 218);
+}
+
+#button:hover {
+    background-color: blanchedalmond;
+    animation-duration: all 5s;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#vicky {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
